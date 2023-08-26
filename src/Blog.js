@@ -1,15 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
-import { Header } from './components'
+import { Header, Footer } from './components';
 import styled from 'styled-components';
 
 const AppColumn = styled.div`
-display: flex
-flex-direction: column;
-justify-content: space-between;
-width: 1000px;
-min-height: 100%;
-margin: 0 auto;
-background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+	background-color: #fff;
 `;
 
 const Content = styled.div`
@@ -19,14 +19,6 @@ const Content = styled.div`
 const H2 = styled.h2`
 	text-align: center;
 `;
-
-const Footer = () => {
-	return (
-		<div>
-			<h1>Footer</h1>
-		</div>
-	);
-};
 
 export const Blog = () => {
 	return (

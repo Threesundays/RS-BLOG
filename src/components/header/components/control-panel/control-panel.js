@@ -19,10 +19,10 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledButton = styled.div`
-&:hover {
-cursor: pointer;
-}
-`
+	&:hover {
+		cursor: pointer;
+	}
+`;
 
 const ControlPanelContainer = ({ className }) => {
 	const navigate = useNavigate();
@@ -32,7 +32,7 @@ const ControlPanelContainer = ({ className }) => {
 				<StyledLink to="/login">Войти</StyledLink>
 			</RightAligned>
 			<RightAligned>
-				<StyledButton  href="" onClick={() => navigate(-1)}>
+				<StyledButton href="" onClick={() => navigate(-1)}>
 					<Icon id="fa-backward" margin="10px 0 0 0" />
 				</StyledButton>
 				<Link to="/post">
