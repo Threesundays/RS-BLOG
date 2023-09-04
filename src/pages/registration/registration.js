@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { useDispatch, useSelector, useStore } from 'react-redux';
+import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Navigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
@@ -55,7 +55,7 @@ const RegistrationContainer = ({ className }) => {
 
 	const roleId = useSelector(selectUserRole);
 
-    useResetForm(reset);
+	useResetForm(reset);
 
 	const onSubmit = ({ login, password }) => {
 		server.register(login, password).then(({ error, res }) => {

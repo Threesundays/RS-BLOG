@@ -3,16 +3,9 @@
     {
       "id": "001",
       "login": "anton",
-      "password": "qwerty123",
-      "register_at": "2050-09-22",
+      "password": "qwe123",
+      "registed_at": "2050-09-22 10:12",
       "role_id": 0
-    },
-    {
-      "login": "ivan",
-      "password": "qwerty123",
-      "registed_at": "2060-11-19 10:12",
-      "role_id": 2,
-      "id": "WfWQxQT"
     },
     {
       "login": "ivan2",
@@ -20,20 +13,6 @@
       "registed_at": "2060-07-19 20:30",
       "role_id": 2,
       "id": "5j_uvol"
-    },
-    {
-      "login": "ivan3",
-      "password": "qwerty123",
-      "registed_at": "2064-02-08 20:56",
-      "role_id": 2,
-      "id": "8mlgyH_"
-    },
-    {
-      "login": "ivan4",
-      "password": "qwerty123",
-      "registed_at": "2035-03-27 00:49",
-      "role_id": 2,
-      "id": "KsI8eRK"
     }
   ],
   "roles": [
