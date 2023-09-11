@@ -9,13 +9,12 @@ export const fetchPost = async (postId) => {
 
 	const commentsWithAuthor = comments.map((comment) => {
 		const user = users.find(({ id }) => id === comment.authorId);
-		
+
 		return {
 			...comment,
 			author: user?.login,
 		};
 	});
-console.log(commentsWithAuthor)
 	return {
 		error: null,
 		res: {
