@@ -1,11 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import { Header, Footer, Modal } from './components';
-import { Authorization, Post, Registration, Users } from './pages';
+import { Authorization, Main, Post, Registration, Users } from './pages';
 import { useDispatch } from 'react-redux';
 import { useLayoutEffect } from 'react';
 import { setUser } from './actions';
 import styled from 'styled-components';
-
 
 const AppColumn = styled.div`
 	display: flex;
@@ -46,7 +45,7 @@ export const Blog = () => {
 			<Header />
 			<Page>
 				<Routes>
-					<Route path="/" element={<div>Главная страницы</div>} />
+					<Route path="/" element={<Main />} />
 					<Route path="/login" element={<Authorization />} />
 					<Route path="/register" element={<Registration />} />
 					<Route path="/users" element={<Users />} />

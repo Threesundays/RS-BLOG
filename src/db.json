@@ -119,7 +119,36 @@
       "id": "Smouuc5"
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "author_id": "001",
+      "post_ud": "003",
+      "published_at": "2046-03-28 03:28",
+      "content": "csuka tvoyu mat",
+      "id": 1
+    },
+    {
+      "author_id": "001",
+      "post_ud": "002",
+      "published_at": "2047-10-02 13:57",
+      "content": "dwdwdw",
+      "id": 2
+    },
+    {
+      "author_id": "001",
+      "post_ud": "002",
+      "published_at": "2049-03-02 06:17",
+      "content": "fwfwfwfwf",
+      "id": 3
+    },
+    {
+      "author_id": "001",
+      "post_ud": "002",
+      "published_at": "2046-09-22 09:54",
+      "content": "всвсвмвмвм",
+      "id": 4
+    }
+  ],
   "sessions": [
     {
       "hash": "0.78331199773045678824701099074445664882659912109375",
