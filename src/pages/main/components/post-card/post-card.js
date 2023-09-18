@@ -55,7 +55,7 @@ export const PostCard = styled(PostCardContainer)`
 	}
 
     & .post-card-footer {
-        paddingL 5px;
+        padding: 5px;
         border-top: 1px solid #000;
     }
 
