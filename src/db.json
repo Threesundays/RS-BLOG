@@ -13,6 +13,20 @@
       "registed_at": "2060-07-19 20:30",
       "role_id": 2,
       "id": "5j_uvol"
+    },
+    {
+      "login": "Petr",
+      "password": "qwe123",
+      "registed_at": "2061-12-05 04:27",
+      "role_id": 1,
+      "id": "odK7qqB"
+    },
+    {
+      "login": "Ivan",
+      "password": "qwe123",
+      "registed_at": "2058-12-15 18:18",
+      "role_id": 2,
+      "id": "aEBzRNL"
     }
   ],
   "roles": [
@@ -154,6 +168,27 @@
       "published_at": "2034-01-17 04:25",
       "content": "cdvdvdvdvdfverger",
       "id": 5
+    },
+    {
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2044-09-01 19:45",
+      "content": "проверка",
+      "id": 6
+    },
+    {
+      "author_id": "odK7qqB",
+      "post_id": "002",
+      "published_at": "2057-08-03 02:36",
+      "content": "wwfwef",
+      "id": 7
+    },
+    {
+      "author_id": "odK7qqB",
+      "post_id": "002",
+      "published_at": "2043-06-02 02:56",
+      "content": "efwefef",
+      "id": 8
     }
   ],
   "sessions": [
@@ -167,6 +202,28 @@
         "roleId": 0
       },
       "id": 1
+    },
+    {
+      "hash": "0.85242789187943102113820259546628221869468688964844",
+      "user": {
+        "id": "odK7qqB",
+        "login": "Petr",
+        "password": "qwe123",
+        "registeredAt": "2061-12-05 04:27",
+        "roleId": 1
+      },
+      "id": 2
+    },
+    {
+      "hash": "0.39648280180168038455690293631050735712051391601563",
+      "user": {
+        "login": "Ivan",
+        "password": "qwe123",
+        "registed_at": "2058-12-15 18:18",
+        "role_id": 2,
+        "id": "aEBzRNL"
+      },
+      "id": 3
     }
   ]
 }
