@@ -20,5 +20,5 @@ export const Input = styled(InputContainer)`
 `;
 
 Input.propTypes = {
-	with: PropTypes.string,
+	width: PropTypes.string,
 };
